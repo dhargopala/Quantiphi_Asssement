@@ -1,0 +1,5 @@
+Execute a specific command in all the subdirectories whose names starts with “aws”. For example, your sub-directories are “aws_1”, “aws_2”, “gcp_1”, “aws_3”., Execute “pwd” command in the directories “aws_1”, “aws_2” and “aws_3”
+
+
+
+find . -name 'aws*' -exec pwd
