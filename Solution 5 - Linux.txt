@@ -1,4 +1,0 @@
-Finding a Specific file in the system:
-
-
-sudo find / -name filename
