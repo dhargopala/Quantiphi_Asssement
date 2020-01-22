@@ -1,7 +1,0 @@
-to find a word in multiple lines:
-
-grep -w "word" textfile.txt
-
-to count and show number of occurances:
-
-grep -o -i "word" textfile.txt | wc -l
