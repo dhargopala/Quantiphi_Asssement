@@ -1,3 +1,0 @@
-Finding a certain word in all the files in a directory:
-
-grep --include=\*.txt -rnw '/path/to/somewhere/' -e "pattern"
