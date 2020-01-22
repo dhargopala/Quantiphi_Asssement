@@ -1,0 +1,14 @@
+GCP- How to create a new VPC:
+
+1) Navigate to the VPC network page in GCP console.
+2) Create a new VPC and rename it
+3) Choose Automatic for subnet creation
+4) Use the predefined Firewall rules and/or change according to your needs
+5) After selecting the Dynamic Routing mode click on Create.
+
+For Subnet Creation:
+
+1) Go to the VPC network Page in the GCP console
+2) Select a VPC to add a new subnet
+3) Click on add subnet and select it's Name, Region, IP range etc.
+4) Click on add Subnet, we can even add private Google access for the same

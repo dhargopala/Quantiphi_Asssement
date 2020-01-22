@@ -1,0 +1,27 @@
+Steps to Create IAM Policy which grants access to S3 bucket Only:
+
+1) Go to http://aws.amazon.com.
+
+2) Click on “My Account/Console” and select “Security Credentials”.
+
+3) Select “Policies” on the left menu, then click “Create Policy”.
+
+4) Select “Create Your Own Policy”.
+
+5) Fill out the “Policy Name”, “Description” and “Policy Document” fields, to specifically provide access to s3 we write the command as "arn:aws:s3:::YOUR-BUCKET" in the policy under action head.
+
+6) Your new policy is created after you click “Create Policy”.
+
+7) Select “Groups” on the left hand menu bar, and click on “Create New Group”.
+
+8) Enter a group name.
+
+9) Search for the policy name that you just created, e.g. single-bucket-access-and-all-buckets-list
+
+
+10) Next, select “Create Group”.
+
+11) Select the group that you just created, and click “Group Actions”. Select “Add Users to Group”, Then, select your user, and click “Add Users”.
+
+
+12)  You can now use your “Access Key ID” and “Secret Access Key” restricted to a single bucket.

@@ -1,0 +1,15 @@
+What will be the outcome of this IAM Policy?
+{
+"Version": "2012-10-17",
+"Statement": [{
+"Action": "ec2:*",
+"Resource": "*",
+"Effect": "Allow"
+},
+{
+"Action": "*",
+"Resource": "*",
+"Effect": "Deny"
+}
+]
+}

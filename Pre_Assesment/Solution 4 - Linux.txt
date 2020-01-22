@@ -1,0 +1,4 @@
+replaicng a word at all places in a file:
+
+
+sed -i 's/original_word/new_word/g' textfile.txt

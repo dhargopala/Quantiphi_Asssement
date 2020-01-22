@@ -1,0 +1,8 @@
+Steps to Create a bucket and transfer our files to that bucket:
+
+1) Install Cloud SDK and Python 2.7
+2) open the terminal, use "gsutil mb -l asia-south1 gs://new-bucket/"
+3) This creates a new bucket called "new-bucket".
+4) Select the file you want to add to the new bucket and copy its address on the local computer
+5) on the console use command, "gsutil cp /local-address-of-the-file/ gs://new-bucket/"
+6) This copies the locally stored file onto the GCP bucket we created a while back
